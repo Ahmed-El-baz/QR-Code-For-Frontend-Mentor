@@ -1,5 +1,6 @@
 body{
     background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
 }
 .parent{
     position: absolute;
@@ -11,8 +12,8 @@ body{
     -ms-transform: translate( -50% , -50% );
     -o-transform: translate( -50% , -50% );
     font-size: 15px;
-    max-width: 500px;
-    min-width: 500px;
+    max-width: 400px;
+    min-width: 400px;
     max-height: 700px;
     min-height: 700px;
     overflow: hidden;
@@ -28,10 +29,11 @@ body{
 }
 .parent h1{
     font-weight: 700;
+    text-align: center;
 }
 .parent img{
-    width: 450px;
-    margin: 25px 25px 25px;
+    width: 350px;
+    margin: 25px 25px 0px 25px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -41,6 +43,8 @@ body{
 .parent p{
     font-weight: 300;
     margin-left: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .attribution{
     display: flex;
